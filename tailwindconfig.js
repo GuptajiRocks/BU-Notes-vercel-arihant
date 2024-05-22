@@ -4,22 +4,22 @@ function validate(event){
     var username = document.getElementById("username").value;
     var password = document.getElementById("password").value;
     if ( username == "arihant" && password == "arihant123"){
-        alert ("Login successfully");
+        //alert ("Login successfully");
         window.location.replace("landing.html");
         return false;
     }
     else if(username == "teacher" && password == "teacher@123") {
-        alert ("Login successfully");
+        //alert ("Login successfully");
         window.location.replace("landing.html");
         return false;
     }
     else if(username == "vishnu" && password == "vrcgangcoc") {
-        alert ("Login Successfully");
+        //alert ("Login Successfully");
         window.location.replace("landing.html");
         return false
     }
     else if(username == "ADMIN" && password == "ADMIN") {
-        alert ("Login Successfully");
+        //alert ("Login Successfully");
         window.location.replace("landing.html");
         return false
     }
